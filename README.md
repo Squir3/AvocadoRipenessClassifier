@@ -10,12 +10,12 @@ A small computer-vision project for classifying avocado ripeness from an image. 
 - Optionally train and run an object-detection model with YOLO.
 
 ## Screenshots
-
-Add application screenshots to a `screenshots/` directory, then embed them here. For example:
-
-<!-- Uncomment after adding the screenshot file:
-![Avocado ripeness classifier](screenshots/classifier.png)
--->
+<img width="1920" height="919" alt="chrome_iAMhvcOgjp" src="https://github.com/user-attachments/assets/301b7335-3540-4c73-b443-9faaea030484" />
+<img width="1920" height="919" alt="chrome_vAQC6gtW6h" src="https://github.com/user-attachments/assets/25a48e98-9e91-4b2e-9381-7cc2ffddf078" />
+<img width="1920" height="919" alt="chrome_rzCbNPECEk" src="https://github.com/user-attachments/assets/6c903c1a-6c31-4672-9769-99650df6f1f4" />
+<img width="1920" height="919" alt="chrome_usGs2U8Vkg" src="https://github.com/user-attachments/assets/90cb4649-b31a-4d37-b378-54524e34a031" />
+<img width="1920" height="919" alt="chrome_aXyLFkJpQF" src="https://github.com/user-attachments/assets/c01ca865-350d-45fa-bcb5-432007fe6f3d" />
+<img width="1920" height="919" alt="chrome_t2A2gWJMSY" src="https://github.com/user-attachments/assets/3a09e732-2f2f-4e5a-834f-bb056739cc54" />
 
 ## Ripeness labels
 
@@ -142,13 +142,3 @@ Predictions are saved by Ultralytics. `test.py` is an additional experiment that
 | `predict_avocado.py`, `test.py` | YOLO inference experiments |
 | `podziel_zdjecia.py` | Creates train/test folders for YOLO data |
 | `setup_checker.py`, `ch.py` | CUDA availability checks |
-
-## Notes before publishing
-
-- Confirm that you have permission to redistribute the images in `Avocado Ripening Dataset/` and any model weights you publish. Check the original dataset and model licenses and include the required attribution.
-- Do not publish private keys, credentials, or other secrets. The repository currently contains `awokado-key.pem`; verify what it is and remove it from the public repository if it is a private key. If a real private key has already been exposed, revoke or rotate it.
-- The model's prediction is an estimate based on visual appearance and should not be treated as a definitive quality or food-safety assessment.
-
-## License
-
-No project license is currently specified. Add a `LICENSE` file before describing the project as open source or granting others permission to reuse its code. Dataset and pretrained-weight licenses may be separate from the project license.
